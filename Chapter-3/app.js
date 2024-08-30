@@ -17,7 +17,7 @@ onClick();
 //Question 3
 
 var birthYear = 2005;
-document.write(`My birth year is ${birthYear} `);
+document.write(`My birth year is ${birthYear}</br></br>`);
 
 //Question 4
 

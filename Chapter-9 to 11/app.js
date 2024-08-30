@@ -136,7 +136,7 @@ else if(secretNumber === guess + 1){
 
 //Question8
 
-var num = Number(prompt('Enter the number'));
+var num = Number(prompt('Enter any number'));
 if (num % 3 == 0) {
   alert(`The given number ${num} is divisible by 3.`);
 }
@@ -146,7 +146,7 @@ else {
 
 //Question9
 
-var numCheck = Number(prompt('Enter the number'));
+var numCheck = Number(prompt('Enter to check number is even or odd'));
 if (numCheck % 2 == 0) {
   alert(`The given number ${numCheck} is Even.`);
 }
@@ -172,8 +172,8 @@ else if(temp > 10){
 
 //Question11
 
-var a = Number(prompt('Enter the number(1)'));
-var b = Number(prompt('Enter the number(2)'));
+var a = Number(prompt('Enter the number(1) for calculation'));
+var b = Number(prompt('Enter the number(2) for calculation'));
 var operator = prompt('Enter you want (+, -, *, /, % )');
 if (operator === '+') {
   alert(a + b);
